@@ -28,6 +28,6 @@
 
 [[redirects]]
   from = "/*"
-  to = "/login/"
+  to = "/admin/"
   status = 302
   force = true
