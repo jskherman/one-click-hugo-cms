@@ -18,3 +18,16 @@
 
   [plugins.inputs]
     record = true
+
+# Auth Protect
+[[redirects]]
+  from = "/*"
+  status = 200
+  force = true
+  conditions = {Role = ["admin"]}
+
+[[redirects]]
+  from = "/*"
+  to = "/login/"
+  status = 302
+  force = true
