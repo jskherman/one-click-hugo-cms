@@ -20,4 +20,4 @@
 # You can also grant several roles access to the same path 
 # by chaining them with commas:
 
-# /private/* /private/:splat  200!  Role=editor,admin
+/* /:splat  200!  Role=editor,admin
